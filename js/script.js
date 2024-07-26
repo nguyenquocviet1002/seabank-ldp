@@ -98,7 +98,7 @@ $(document).ready(function () {
                                     <input class="modal__input" type="text" placeholder="Email">
                                 </div>
                                 <div class="form-group">
-                                    <input class="modal__input" type="text" placeholder="Vay kinh doanh">
+                                    <input class="modal__input" type="text" placeholder="Sản phẩm muốn đăng ký vay mua nhà">
                                 </div>
                                 <div class="modal__submit">
                                     <input class="button-1" type="button" value="Đăng ký">
@@ -133,7 +133,7 @@ $(document).ready(function () {
                                     <input class="modal__input" type="text" placeholder="Email">
                                 </div>
                                 <div class="form-group">
-                                    <input class="modal__input" type="text" placeholder="Vay kinh doanh">
+                                    <input class="modal__input" type="text" placeholder="Sản phẩm muốn đăng ký vay kinh doanh">
                                 </div>
                                 <div class="modal__submit">
                                     <input class="button-1" type="button" value="Đăng ký">
@@ -168,7 +168,7 @@ $(document).ready(function () {
                                     <input class="modal__input" type="text" placeholder="Email">
                                 </div>
                                 <div class="form-group">
-                                    <input class="modal__input" type="text" placeholder="Vay kinh doanh">
+                                    <input class="modal__input" type="text" placeholder="Sản phẩm thẻ tín dụng muốn đăng ký">
                                 </div>
                                 <div class="modal__submit">
                                     <input class="button-1" type="button" value="Đăng ký">
@@ -203,7 +203,7 @@ $(document).ready(function () {
                                     <input class="modal__input" type="text" placeholder="Email">
                                 </div>
                                 <div class="form-group">
-                                    <input class="modal__input" type="text" placeholder="Vay kinh doanh">
+                                    <input class="modal__input" type="text" placeholder="Sản phẩm bảo hiểm muốn đăng ký">
                                 </div>
                                 <div class="modal__submit">
                                     <input class="button-1" type="button" value="Đăng ký">
@@ -226,6 +226,11 @@ $(document).ready(function () {
     // $('.next__screen4').click(function() {
     //     $('.screen4 .container4').css('display', 'none');
     //     $('.screen4__slide').css('display', 'block');
+    // });
+
+    // $('.next__screen5').click(function() {
+    //     $('.screen5 .container5').css('display', 'none');
+    //     $('.screen5__slide').css('display', 'block');
     // });
 
     var swiper4 = new Swiper(".mySwiper4", {});
