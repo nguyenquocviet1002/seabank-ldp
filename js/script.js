@@ -223,10 +223,10 @@ $(document).ready(function () {
 
     checkScroll();
 
-    $('.next__screen4').click(function() {
-        $('.screen4 .container4').css('display', 'none');
-        $('.screen4__slide').css('display', 'block');
-    });
+    // $('.next__screen4').click(function() {
+    //     $('.screen4 .container4').css('display', 'none');
+    //     $('.screen4__slide').css('display', 'block');
+    // });
 
     var swiper4 = new Swiper(".mySwiper4", {});
     var swiper5 = new Swiper(".mySwiper5", {});
