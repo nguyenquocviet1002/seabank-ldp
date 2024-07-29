@@ -916,6 +916,18 @@ input {
 .screen4__child--3 {
   background: url("../images/page43-bg.jpg") no-repeat top;
 }
+.screen4__child--4 {
+  background: url("../images/page44-bg.jpg") no-repeat top;
+}
+.screen4__child--5 {
+  background: url("../images/page45-bg.jpg") no-repeat top;
+}
+.screen4__child--6 {
+  background: url("../images/page46-bg.jpg") no-repeat top;
+}
+.screen4__child--7 {
+  background: url("../images/page47-bg.jpg") no-repeat top;
+}
 .screen4__child .screen4__box {
   margin-left: 0;
 }

@@ -219,7 +219,13 @@ $(document).ready(function () {
         };
         $(html).appendTo('body');
 
-    })
+    });
+
+    $(".btn-action").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#page2").offset().top
+        }, 1000);
+    });
 
     checkScroll();
 
