@@ -7,6 +7,7 @@
   left: 0;
   width: 100%;
   transition: all 0.2s ease-in-out;
+  z-index: 2;
   &.fixed {
     background-color: #fff;
     box-shadow: 0 0px 5px 0 #c3c3c3;
@@ -620,12 +621,26 @@
     }
   }
   &__child {
-    background: url("../images/page4-bg.jpg") no-repeat top;
+    &--1{
+      background: url("../images/page41-bg.jpg") no-repeat top;
+    }
+    &--2{
+      background: url("../images/page42-bg.jpg") no-repeat top;
+    }
+    &--3{
+      background: url("../images/page43-bg.jpg") no-repeat top;
+    }
     background-size: 1920px;
     height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
+    .screen4__box{
+      margin-left: 0;
+    }
+    .screen4__text{
+      text-align: center;
+    }
   }
   img {
     width: 100%;

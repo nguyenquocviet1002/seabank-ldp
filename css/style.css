@@ -260,6 +260,7 @@ input {
   left: 0;
   width: 100%;
   transition: all 0.2s ease-in-out;
+  z-index: 2;
 }
 .header.fixed {
   background-color: #fff;
@@ -900,12 +901,26 @@ input {
   height: 100%;
 }
 .screen4__child {
-  background: url("../images/page4-bg.jpg") no-repeat top;
   background-size: 1920px;
   height: 100%;
   width: 100%;
   display: flex;
   align-items: center;
+}
+.screen4__child--1 {
+  background: url("../images/page41-bg.jpg") no-repeat top;
+}
+.screen4__child--2 {
+  background: url("../images/page42-bg.jpg") no-repeat top;
+}
+.screen4__child--3 {
+  background: url("../images/page43-bg.jpg") no-repeat top;
+}
+.screen4__child .screen4__box {
+  margin-left: 0;
+}
+.screen4__child .screen4__text {
+  text-align: center;
 }
 .screen4 img {
   width: 100%;
