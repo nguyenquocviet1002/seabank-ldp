@@ -1065,7 +1065,7 @@ input {
 .screen5 {
   background: url("../images/page5-bg.jpg") no-repeat top;
   background-size: 1920px;
-  min-height: 852px;
+  height: 852px;
   display: flex;
   align-items: center;
 }
@@ -1133,6 +1133,36 @@ input {
   font-size: 1rem;
   margin-top: 10px;
 }
+.screen5__slide {
+  width: 100%;
+  height: 100%;
+}
+.screen5__slide .swiper {
+  width: 100%;
+  height: 100%;
+}
+.screen5__child {
+  background-size: 1920px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.screen5__child--1 {
+  background-image: url("../images/page51-bg.jpg");
+}
+.screen5__child--2 {
+  background-image: url("../images/page52-bg.jpg");
+}
+.screen5__child--3 {
+  background-image: url("../images/page53-bg.jpg");
+}
+.screen5__child--4 {
+  background-image: url("../images/page54-bg.jpg");
+}
+.screen5__child .screen5__item {
+  width: calc(50% - 10px);
+}
 .screen5 img {
   width: 100%;
   height: auto;
@@ -1141,7 +1171,10 @@ input {
 @media (max-width: 1199px) {
   .screen5 {
     background-size: 1199px;
-    min-height: 532px;
+    height: 532px;
+  }
+  .screen5__child {
+    background-size: 1199px;
   }
   .screen5__box {
     width: 50%;
@@ -1150,7 +1183,10 @@ input {
 @media (max-width: 991px) {
   .screen5 {
     background-size: 991px;
-    min-height: 440px;
+    height: 440px;
+  }
+  .screen5__child {
+    background-size: 991px;
   }
   .screen5__title {
     margin: 10px 0;
@@ -1165,7 +1201,10 @@ input {
 @media (max-width: 767px) {
   .screen5 {
     background-size: 900px;
-    min-height: 399px;
+    height: 399px;
+  }
+  .screen5__child {
+    background-size: 900px;
   }
   .screen5__title {
     margin: 5px 0;
@@ -1194,9 +1233,12 @@ input {
   .screen5 {
     background: url("../images/page5-mb-bg.jpg") no-repeat top;
     background-size: 575px;
-    min-height: 920px;
+    height: 920px;
     display: block;
     padding-top: 20px;
+  }
+  .screen5__child {
+    background-size: 575px;
   }
   .screen5__box {
     width: 100%;
@@ -1227,7 +1269,10 @@ input {
 @media (max-width: 430px) {
   .screen5 {
     background-size: 430px;
-    min-height: 688px;
+    height: 688px;
+  }
+  .screen5__child {
+    background-size: 430px;
   }
   .screen5__box {
     height: 650px;

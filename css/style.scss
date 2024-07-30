@@ -776,7 +776,7 @@
 .screen5 {
   background: url("../images/page5-bg.jpg") no-repeat top;
   background-size: 1920px;
-  min-height: 852px;
+  height: 852px;
   display: flex;
   align-items: center;
   &__box {
@@ -843,6 +843,36 @@
     font-size: 1rem;
     margin-top: 10px;
   }
+  &__slide {
+    width: 100%;
+    height: 100%;
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  &__child{
+    &--1{
+      background-image: url('../images/page51-bg.jpg');
+    }
+    &--2{
+      background-image: url('../images/page52-bg.jpg');
+    }
+    &--3{
+      background-image: url('../images/page53-bg.jpg');
+    }
+    &--4{
+      background-image: url('../images/page54-bg.jpg');
+    }
+    background-size: 1920px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    .screen5__item{
+      width: calc(50% - 10px);
+    }
+  }
   img {
     width: 100%;
     height: auto;
@@ -850,14 +880,20 @@
   }
   @media (max-width: 1199px) {
     background-size: 1199px;
-    min-height: 532px;
+    height: 532px;
+    &__child{
+      background-size: 1199px;
+    }
     &__box {
       width: 50%;
     }
   }
   @media (max-width: 991px) {
     background-size: 991px;
-    min-height: 440px;
+    height: 440px;
+    &__child{
+      background-size: 991px;
+    }
     &__title {
       margin: 10px 0;
     }
@@ -870,7 +906,10 @@
   }
   @media (max-width: 767px) {
     background-size: 900px;
-    min-height: 399px;
+    height: 399px;
+    &__child{
+      background-size: 900px;
+    }
     &__title {
       margin: 5px 0;
     }
@@ -897,9 +936,12 @@
   @media (max-width: 575px) {
     background: url("../images/page5-mb-bg.jpg") no-repeat top;
     background-size: 575px;
-    min-height: 920px;
+    height: 920px;
     display: block;
     padding-top: 20px;
+    &__child{
+      background-size: 575px;
+    }
     &__box {
       width: 100%;
       display: flex;
@@ -928,7 +970,10 @@
   }
   @media (max-width: 430px) {
     background-size: 430px;
-    min-height: 688px;
+    height: 688px;
+    &__child{
+      background-size: 430px;
+    }
     &__box {
       height: 650px;
     }

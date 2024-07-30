@@ -234,10 +234,10 @@ $(document).ready(function () {
         $('.screen4__slide').css('display', 'block');
     });
 
-    // $('.next__screen5').click(function() {
-    //     $('.screen5 .container5').css('display', 'none');
-    //     $('.screen5__slide').css('display', 'block');
-    // });
+    $('.next__screen5').click(function() {
+        $('.screen5 .container5').css('display', 'none');
+        $('.screen5__slide').css('display', 'block');
+    });
 
     var swiper4 = new Swiper(".mySwiper4", {});
     var swiper5 = new Swiper(".mySwiper5", {});
