@@ -544,8 +544,11 @@
 }
 
 .screen4 {
-  background: url("../images/page4-bg.jpg") no-repeat top;
+  background-image: url("../images/page4-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
   background-size: 1920px;
+  background-color: #f7eae4;
   height: 663px;
   display: flex;
   align-items: center;
@@ -622,27 +625,29 @@
   }
   &__child {
     &--1{
-      background: url("../images/page41-bg.jpg") no-repeat top;
+      background-image: url("../images/page41-bg.jpg");
     }
     &--2{
-      background: url("../images/page42-bg.jpg") no-repeat top;
+      background-image: url("../images/page42-bg.jpg");
     }
     &--3{
-      background: url("../images/page43-bg.jpg") no-repeat top;
+      background-image: url("../images/page43-bg.jpg");
     }
     &--4{
-      background: url("../images/page44-bg.jpg") no-repeat top;
+      background-image: url("../images/page44-bg.jpg");
     }
     &--5{
-      background: url("../images/page45-bg.jpg") no-repeat top;
+      background-image: url("../images/page45-bg.jpg");
     }
     &--6{
-      background: url("../images/page46-bg.jpg") no-repeat top;
+      background-image: url("../images/page46-bg.jpg");
     }
     &--7{
-      background: url("../images/page47-bg.jpg") no-repeat top;
+      background-image: url("../images/page47-bg.jpg");
     }
     background-size: 1920px;
+    background-repeat: no-repeat;
+    background-position: top;
     height: 100%;
     width: 100%;
     display: flex;
@@ -662,6 +667,9 @@
   @media (max-width: 1199px) {
     background-size: 1199px;
     height: 414px;
+    &.isActive{
+      height: 550px;
+    }
     &__child {
       background-size: 1199px;
     }
@@ -675,6 +683,9 @@
   @media (max-width: 991px) {
     background-size: 991px;
     height: 342px;
+    &.isActive{
+      height: 460px;
+    }
     &__child {
       background-size: 991px;
     }
@@ -724,12 +735,39 @@
     }
   }
   @media (max-width: 575px) {
-    background: url("../images/page4-mb-bg.jpg") no-repeat top;
+    background-image: url("../images/page4-mb-bg.jpg");
     background-size: 575px;
     height: 784px;
     display: block;
     padding-top: 20px;
+    &.isActive{
+      height: 780px;
+      .screen4__box{
+        height: 730px;
+      } 
+    }
     &__child {
+      &--1{
+        background-image: url("../images/page41-mb-bg.jpg");
+      }
+      &--2{
+        background-image: url("../images/page42-mb-bg.jpg");
+      }
+      &--3{
+        background-image: url("../images/page43-mb-bg.jpg");
+      }
+      &--4{
+        background-image: url("../images/page44-mb-bg.jpg");
+      }
+      &--5{
+        background-image: url("../images/page45-mb-bg.jpg");
+      }
+      &--6{
+        background-image: url("../images/page46-mb-bg.jpg");
+      }
+      &--7{
+        background-image: url("../images/page47-mb-bg.jpg");
+      }
       background-size: 575px;
     }
     &__box {
@@ -761,6 +799,12 @@
   @media (max-width: 430px) {
     background-size: 430px;
     height: 587px;
+    &.isActive{
+      height: 780px;
+      .screen4__box{
+        height: 730px;
+      } 
+    }
     &__child {
       background-size: 430px;
     }
@@ -941,6 +985,18 @@
     padding-top: 20px;
     &__child{
       background-size: 575px;
+      &--1{
+        background-image: url('../images/page51-mb-bg.jpg');
+      }
+      &--2{
+        background-image: url('../images/page52-mb-bg.jpg');
+      }
+      &--3{
+        background-image: url('../images/page53-mb-bg.jpg');
+      }
+      &--4{
+        background-image: url('../images/page54-mb-bg.jpg');
+      }
     }
     &__box {
       width: 100%;
